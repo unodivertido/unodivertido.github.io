@@ -167,6 +167,7 @@ a.cta-button {
 .why-works-section {
     padding: 4rem 0;
     background-color: #dbeafe;
+    text-align: left;
 }
 
 .two-column-grid {
@@ -196,6 +197,7 @@ a.cta-button {
 
 .benefits-list {
     margin-bottom: 2rem;
+    text-align: left;
 }
 
 .benefit-item {
@@ -718,4 +720,5 @@ a.cta-button {
     .step-card {
         padding: 1rem;
     }
+
 }
