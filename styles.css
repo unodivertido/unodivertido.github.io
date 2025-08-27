@@ -1,0 +1,721 @@
+/* Reset e Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* Header */
+
+.cta-button {
+    text-decoration: none;
+}
+a.cta-button {
+    text-decoration: none;
+}
+
+
+.header {
+    background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.header-text {
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+/* Hero Section */
+.hero-section {
+    padding: 4rem 0;
+    background: linear-gradient(to bottom, #f9fafb, #ffffff);
+    text-align: center;
+}
+
+.hero-title {
+    font-size: clamp(2rem, 5vw, 3.75rem);
+    font-weight: bold;
+    color: #111827;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+}
+
+.text-red {
+    color: #ef4444;
+}
+
+.text-blue {
+    color: #3b82f6;
+}
+
+.hero-subtitle {
+    font-size: 1.25rem;
+    color: #374151;
+    margin-bottom: 2rem;
+    max-width: 48rem;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+}
+
+.highlight-box {
+    background-color: #fef3c7;
+    border-left: 4px solid #f59e0b;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 0 0.5rem 0.5rem 0;
+    max-width: 48rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.highlight-text {
+    font-size: 1.125rem;
+    color: #1f2937;
+}
+
+.hero-secondary-title {
+    font-size: clamp(1.875rem, 4vw, 2.25rem);
+    font-weight: bold;
+    color: #111827;
+    margin-bottom: 1.5rem;
+}
+
+.hero-description {
+    font-size: 1.25rem;
+    color: #374151;
+    margin-bottom: 2rem;
+    max-width: 48rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.price-highlight {
+    color: #16a34a;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.hero-image {
+    margin-bottom: 2rem;
+}
+
+.main-image {
+    max-width: 24rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease;
+}
+
+.main-image:hover {
+    transform: scale(1.05);
+}
+
+/* Buttons */
+.cta-button {
+    padding: 1rem 2rem;
+    border-radius: 9999px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    transform: translateY(0);
+}
+
+.cta-button:hover {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px) scale(1.05);
+}
+
+.cta-button.primary {
+    background: linear-gradient(135deg, #16a34a, #15803d);
+    color: white;
+}
+
+.cta-button.primary:hover {
+    background: linear-gradient(135deg, #15803d, #166534);
+}
+
+.cta-button.secondary {
+    background: linear-gradient(135deg, #fbbf24, #f59e0b);
+    color: #1f2937;
+}
+
+.cta-button.secondary:hover {
+    background: linear-gradient(135deg, #f59e0b, #d97706);
+}
+
+/* Why Works Section */
+.why-works-section {
+    padding: 4rem 0;
+    background-color: #dbeafe;
+}
+
+.two-column-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+}
+
+.section-title {
+    font-size: clamp(1.875rem, 4vw, 2.25rem);
+    font-weight: bold;
+    color: #111827;
+    margin-bottom: 1.5rem;
+}
+
+.section-title.center {
+    text-align: center;
+}
+
+.section-description {
+    font-size: 1.125rem;
+    color: #374151;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.benefits-list {
+    margin-bottom: 2rem;
+}
+
+.benefit-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.check-icon {
+    color: #16a34a;
+    font-weight: bold;
+    margin-right: 0.75rem;
+    font-size: 1.25rem;
+}
+
+.highlight-conclusion {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #3b82f6;
+}
+
+.section-image {
+    width: 100%;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.section-image:hover {
+    transform: scale(1.05);
+}
+
+/* What You Get Section */
+.what-you-get-section {
+    padding: 4rem 0;
+    background: linear-gradient(135deg, #f3e8ff, #dbeafe);
+}
+
+.product-box {
+    background: linear-gradient(135deg, #f3e8ff, #dbeafe);
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+.product-intro {
+    font-size: 1.125rem;
+    color: #1f2937;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.games-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(258px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.game-card {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.game-card:hover {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.game-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.75rem;
+}
+
+.game-icon {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.75rem;
+    font-size: 1.5rem;
+}
+
+.game-icon.addition {
+    background-color: #dcfce7;
+}
+
+.game-icon.subtraction {
+    background-color: #fee2e2;
+}
+
+.game-icon.multiplication {
+    background-color: #dbeafe;
+}
+
+.game-icon.division {
+    background-color: #f3e8ff;
+}
+
+.game-info h3 {
+    font-weight: bold;
+    color: #111827;
+    margin-bottom: 0.25rem;
+}
+
+.game-info p {
+    color: #6b7280;
+}
+
+.game-image {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.product-summary {
+    text-align: center;
+}
+
+.cards-count {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #111827;
+    margin-bottom: 0.5rem;
+}
+
+.price-text {
+    font-size: 1.125rem;
+    color: #111827;
+    margin-bottom: 0.5rem;
+}
+
+.price-comparison {
+    color: #6b7280;
+    font-style: italic;
+}
+
+.center {
+    text-align: center;
+}
+
+/* Benefits Section */
+.benefits-section {
+    padding: 4rem 0;
+    background: linear-gradient(to bottom right, #fef3c7, #fed7aa);
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.benefit-card {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: flex-start;
+    transition: all 0.3s ease;
+}
+
+.benefit-card:hover {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+}
+
+.benefit-icon {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    flex-shrink: 0;
+}
+
+.benefit-icon.smile {
+    background-color: #f3e8ff;
+}
+
+.benefit-icon.zap {
+    background-color: #dbeafe;
+}
+
+.benefit-icon.trending {
+    background-color: #dcfce7;
+}
+
+.benefit-icon.target {
+    background-color: #fef3c7;
+}
+
+.benefit-icon.heart {
+    background-color: #fee2e2;
+}
+
+.benefit-icon.clock {
+    background-color: #e0e7ff;
+}
+
+.benefit-content h3 {
+    font-weight: bold;
+    color: #111827;
+    margin-bottom: 0.5rem;
+}
+
+.benefit-content p {
+    color: #6b7280;
+}
+
+/* Testimonials Section */
+.testimonials-section {
+    padding: 4rem 0;
+    background-color: #ffffff;
+}
+
+.testimonials-intro {
+    text-align: center;
+    font-size: 1.125rem;
+    color: #374151;
+    margin-bottom: 3rem;
+}
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(242px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.testimonial-card {
+    background: linear-gradient(135deg, #dbeafe, #f3e8ff);
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-image {
+    margin-bottom: 1rem;
+}
+
+.whatsapp-image {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.stars {
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+
+.star {
+    color: #fbbf24;
+    margin-right: 0.25rem;
+}
+
+.testimonial-text {
+    color: #1f2937;
+    font-weight: 500;
+}
+
+.social-proof-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.proof-image {
+    width: 100%;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.proof-image:hover {
+    transform: scale(1.05);
+}
+
+/* How It Works Section */
+.how-it-works-section {
+    padding: 4rem 0;
+    background: linear-gradient(135deg, #dbeafe, #e0e7ff);
+}
+
+.steps-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.step-card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.step-card:hover {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.step-number {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 auto 1rem;
+}
+
+.step-card h3 {
+    font-weight: bold;
+    color: #111827;
+    margin-bottom: 0.75rem;
+}
+
+.step-card p {
+    color: #6b7280;
+}
+
+/* Closing Section */
+.closing-section {
+    padding: 4rem 0;
+    background: linear-gradient(135deg, #111827, #1e40af);
+    color: white;
+    text-align: center;
+}
+
+.closing-title {
+    font-size: clamp(1.875rem, 4vw, 2.25rem);
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.closing-subtitle {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.closing-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+
+.price-highlight-large {
+    color: #fbbf24;
+    font-size: 1.875rem;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.feature-item {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    backdrop-filter: blur(4px);
+}
+
+.feature-icon {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+}
+
+.closing-cta-text {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.closing-image {
+    margin-bottom: 2rem;
+}
+
+.final-image {
+    max-width: 24rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease;
+}
+
+.final-image:hover {
+    transform: scale(1.05);
+}
+
+/* Guarantee Section */
+.guarantee-section {
+    padding: 2rem 0;
+    background-color: #fed7aa;
+}
+
+.guarantee-box {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.guarantee-image {
+    margin-bottom: 1.5rem;
+}
+
+.guarantee-img {
+    max-width: 12rem;
+    width: 100%;
+}
+
+.guarantee-title {
+    font-size: 1.875rem;
+    font-weight: bold;
+    color: #111827;
+    margin-bottom: 1.5rem;
+}
+
+.guarantee-text {
+    font-size: 1.125rem;
+    color: #374151;
+    line-height: 1.6;
+}
+
+/* Footer */
+.footer {
+    background-color: #111827;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.footer-text {
+    color: #9ca3af;
+    margin-bottom: 0.5rem;
+}
+
+.footer-subtitle {
+    color: #9ca3af;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .two-column-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .games-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .benefits-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .steps-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .social-proof-images {
+        grid-template-columns: 1fr;
+    }
+    
+    .cta-button {
+        font-size: 1rem;
+        padding: 0.875rem 1.5rem;
+    }
+    
+    .container {
+        padding: 0 0.75rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-section,
+    .why-works-section,
+    .what-you-get-section,
+    .benefits-section,
+    .testimonials-section,
+    .how-it-works-section,
+    .closing-section,
+    .guarantee-section {
+        padding: 2rem 0;
+    }
+    
+    .product-box {
+        padding: 1rem;
+    }
+    
+    .game-card,
+    .benefit-card,
+    .step-card {
+        padding: 1rem;
+    }
+}
